@@ -1,0 +1,119 @@
+---
+title: ""
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+if (!require(librarian)){
+  install.packages("librarian")
+  library(librarian)
+}
+shelf(
+  htmltools, mitchelloharawild/icons)
+# icons::download_fontawesome()
+# devtools::load_all("~/github/bbest/icons")
+# icons::download_octicons()
+```
+
+## Education 
+
+#### **M.S. Marine Science**, July 2020
+*University of Delaware School of Marine Science and Policy, Lewes, DE*
+
+#### **B.A. Biology and Sociology**, May 2015 
+*Colby College, Waterville, ME* 
+
+## Research Experience
+
+#### **PhD Student** 
+*Institute for the Oceans and Fisheries, UBC* (Sept. 2020 - Present)
+
+- Working on fish population dynamics, Bayesian stock assessment, quantitative management evaluation. More info about my thesis research to come... 
+
+- Funded by a [UBC 4 Year Doctoral Fellowship (4YF)](https://www.grad.ubc.ca/awards/four-year-doctoral-fellowship-4yf)
+
+#### **Master's student and Research Assistant** 
+*School of Marine Science and Policy, University of Delaware* (Sept. 2018 - July 2020)
+
+- Analyzed data from a long term trawl survey using multivariate statistical methods in R to explore changes in fish and invertebrate assemblages and overall community composition in Delaware Bay through time and identify physical and anthropogenic drivers of these changes
+
+- Assisted in lab and field work including marine animal husbandry, stable isotope analysis of highly migratory marine species, and respirometry of pelagic predators
+
+#### **Undergraduate Senior Honors Thesis**
+Title: *Change and Adaptation in the Maine Lobster Fishing Industry*
+
+*Department of Sociology, Colby College* (Sept. 2014 - May 2015)
+
+- Designed and conducted research on the societal impacts of the shifting lobster population and subsequent management on the Lobster fishing industry in Maine
+
+- Collected and analyzed quantitative and qualitative data to understand the social practices of the industry by focusing on the informal micro-level processes and perceptions of people situated at various points within the industry
+
+#### **Research Intern**
+*CIEE Bonaire, Bonaire, Netherland Antilles* (June 2014 - Aug 2014)
+
+- Used SCUBA field sampling methods to catch invasive lionfish species, Pterois, and observe behavioral patterns
+
+- Dissected lionfish, assessed stomach contents, and analyzed results through Stata and Excel in order to explore the impact lionfish have on juvenile fish populations in Bonaire
+
+#### **Independent Study: Sea Urchin Interaction** 
+*Department of Biology, Colby College* (Feb 2014 - May 2014)
+
+- Analyzed and curated data from over 100 scientific papers on sea urchin ecology to create a database that would further knowledge of sea urchin, macroalgae, and coral interactions
+
+#### **Research Intern**
+*Smithsonian Natural History Museum, Washington D.C.* (Jan 2013 - Feb 2013)
+
+- Curated, identified, and photographed over 50 species of pteropoda to catalogue morphology for a new taxonomic database
+
+- Used Geneious and Excel to collect and analyze data for research of the genetics, morphology, and biogeographic information of pteropods to better understand ocean connectivity
+
+## Professional Experience
+
+#### **2021 NOAA Sea Grant John A. Knauss Marine Policy Fellow**
+*National Stock Assessment Program, NOAA Fisheries* (Feb 2021 - Feb 2022)
+
+#### **Communications Team Member** 
+*Association of the Marine Laboratories of the Caribbean* (June 2015 - Present)
+
+- Assist the Caribbean based nonprofit remotely with member relations, social media campaign, outreach, and marketing
+
+- Design, deliver, and analyze a biennial survey to gauge participation within the association and assess the AMLC scientific conferences in order to improve the quality of future conferences
+
+#### **North Pacific Groundfish Observer**
+*Saltwater Inc., Seattle, WA* (June 2016 – Jan 2018)
+
+- Collected data on catch, bycatch, and fishing effort on board commercial Alaskan fishing vessels to be used by the National Marine Fisheries Service to monitor fish populations, set catch limits, and manage the commercial Alaskan fisheries
+
+- Built and executed systematic random sample designs to collect species composition samples, sex/length samples, collect otoliths, and perform fish maturity scans
+
+
+## Skills and Qualifications
+
+### **Computing** 
+
+- Advanced in R
+- Experience with C++, Stan, Stock Synthesis, TMB 
+
+### **Field** 
+
+- Small boat operation
+- Survey techniques including transect and quadrat surveys
+- Species identification using a dichotomous key
+- Systematic random field sampling
+- Fisheries sampling including otolith collection, maturity scanning, shark tagging
+
+### **Lab** 
+
+- Marine animal husbandry including acclimation, feeding, and water quality maintenance
+- Stable isotope analysis protocol
+
+### **Diving** 
+- AAUS Scientific Diver 
+- SDI Rescue Diver
+- SDI Advanced Open Water
+- PADI Open Water
+
+
+
+
+

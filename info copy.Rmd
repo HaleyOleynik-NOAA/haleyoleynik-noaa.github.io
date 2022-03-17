@@ -1,0 +1,211 @@
+---
+title: ""
+---
+
+# Ramblings and Resources 
+
+My personal philosophy is that R can do anything, and I've yet to be proven wrong. I want to share the wonders of R, but I should start by saying there are **thousands** of amazing resources online for R, coding, data analysis, GitHub, etc., some of which I'll link below. What I share here is definitely repeated. So maybe this is more a resource for myself than anyone else. But much of what I have learned came from others' personal websites, blogs, and answers on stack exchange. So maybe someone out there googling random things on the interweb will find these resources.. I can only hope. 
+
+Please [contact me](https://haleyoleynik-noaa.github.io/HaleyOleynik/Contact.html) if you have questions or want help! 
+
+## My Git Workflow 
+
+I use [GitHub Desktop](https://desktop.github.com/) for my workflow. But you can also use the command line or RStudio to do everything I'm doing below. I'll share how I use GitHub Desktop, and maybe later I'll share some other workflows, so stay tuned! This workflow was adapted from Eli Holmes' [Practical R Workflow for Scientists Course](https://rverse-tutorials.github.io/RWorkflow-NWFSC-2021/), which you can follow along with online. It's a GREAT resource for begining your GitHub and RStudio journey! 
+
+### Create a repository 
+
+1. Go to GitHub and create a new repository (the + in the top right)
+2. Check:
+- [x] add `Readme.md`
+- [x] add `.gitignore` (type R to get the R .gitignore)
+
+### Clone your repository 
+
+1. Copy the url of your new repo
+2. Open GitHub Desktop
+3. Click **File > Clone Repository…**
+4. In the popup window, click the **URL** tab to the right and paste in the URL of your repository 
+5. Double check that you have the right folder for the Local Path. I keep all my repositories in `Documents/GitHub` so they are easier to find. 
+6. Click **Clone**.
+7. Open RStudio and click **New Project** (upper right, blue cube with R)
+8. Click **New Project… > Existing Directory**
+9. Navigate to the folder you just cloned from above and click **Create Project**
+
+### Make changes, commit, and push
+
+1. Make changes to your code or add a file (this can also be done by simply adding a file to that folder, doesn't have to be done in RStudio)
+3. Switch to GitHub Desktop
+4. Click the changes that you want to commit (check the little checkbox next to the file). Add a comment to the first line and click **Commit**.
+5. Click the **green up arrow** to Push to GitHub.
+6. Go back to your GitHub repo online, your changes are now there! 
+
+## How I built this website 
+
+R and GitHub did this, not me! I'm going to try to lay out how to do this in a step-by-step way so that even someone with little to no experience with R or GitHub can do this, because not all scientists use these platforms, but I think all scientists should have a personal website that they don't have to wrestle with wordpress, wix, squarespace, etc. to build (believe me, I've been there). I first learned of this in Ben Best’s [R3 Workshop](https://noaa-iea.github.io/r3-train/index.html). All the workshop materials and recordings are online, so check it out if you want more RStudio learnings. 
+
+### Create a repo 
+
+Like I showed above, [create a new repo in GitHub](). 
+
+### Clone the repo to your computers directory 
+
+Use your workflow of choice to clone the repo from GitHub to your computers directory. If you've never used GitHub before, and you created it to make this website (go you!), the easiest way is to do this all in RStudio,
+
+1. Copy the URL of your new repo
+2. Open an RStudio window
+3. Go to **File > New Project... > Version Control > GIT > Clone**
+4. Paste the URL and set the directory to where you want this project to land on your computer 
+
+### Create a home page and a `_site.yml`
+
+Your RStudio project is now open! Congrats! In the top right corner you should see the R cube with the name of your repo next to it. In the bottom right window you should see, in the 'Files' tab, you are in the project directory. Now, 
+
+1. Go to **File > New File > R Markdown...** 
+2. Give this a name, not super important, and click 'OK'
+3. There will be a bunch of text in this file. Delete it all and put a header with your webpage name, here's what mine looks like: 
+
+```
+---
+title: "Haley Oleynik (she/her)"
+---
+```
+
+4. Type all your info below this, [here's what my whole index file](https://github.com/HaleyOleynik-NOAA/HaleyOleynik/blob/main/index.Rmd) looks like for reference. 
+
+Add more pages! Save another page, maybe `research.Rmd`:
+
+```
+---
+title: "Research"
+---
+
+Research description, publications, etc.
+```
+
+Now we'll make a `_site.yml` page. RStudio needs this to build the website. 
+
+1. Create a new text file by **File > New File > Text File** and paste the following:
+
+```
+name: "Haley Oleynik"
+navbar:
+  title: "Haley Oleynik"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.Rmd
+output_dir: "."
+```
+
+2. Save the file as `_site.yml`
+
+### Render your webpage 
+
+Now, to build the website all you'll need to do is run `rmarkdown::render_site()` in your R console.
+
+To see how it looks, **knit** your `index.Rmd` or `Research.Rmd`. You'll be able to view the whole site locally, in your viewer pane (or in a pop up window). 
+
+Now `commit` and `push` the changes you've made to the files.  
+
+### Activate GitHub Pages 
+
+Back in your online GitHub repository: 
+
+1. Go to **Settings** at the far right 
+2. Scroll down and click on **Pages** on the left sidebar 
+3. Choose `Branch: main, folder / (root)`
+4. Click **Save**
+5. The URL for your new website will show up, yay! Copy it and paste it where you need it. 
+
+### Make it fancy 
+
+Now to the fun stuff! These are things I learned slowly while building my website. Since you're on my website you can see some of these details in action. For example, the theme (journal) and all the icons on the top menu! 
+
+#### Webpage style / theme 
+
+Okay this is the easiest, but for me it was surprisingly hard to find all my options. I finally found this awesome resource: **[A THEME GALLERY](https://bootswatch.com/)**. 
+
+Another way to try them out is to just change the theme and **knit** locally to see how they look (I think I did this with almost every theme...)
+
+Here's a list of all the theme options: 
+```
+“default”, “bootstrap”, “cerulean”, “cosmo”, “darkly”, “flatly”, “journal”, “lumen”, “paper”, “readable”, “sandstone”, “simplex”, “spacelab”, “united”, “yeti”
+```
+
+To implement a theme, go to your recently created `_site.yml` and add the last few lines: 
+
+```
+name: "Haley Oleynik"
+navbar:
+  title: "Haley Oleynik"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.Rmd
+output_dir: "."
+output:
+  html_document:
+    theme: journal
+```
+
+Now `rmarkdown::render_site()` in your R console and **knit** one of your pages again to view it locally. Don't forget to commit and push to GitHub so these changes are made on your real site! 
+
+#### Add icons 
+
+Okay, this is super easy, there are a bunch of font awesome icons built in so you can just call them in your `_site.yml`. Here is the `ICON GALLERY` (just be sure to choose the free icons). Once you've picked out your icons, all you do is add them to your `_site.yml` like I have below: 
+
+```
+name: "Haley Oleynik"
+navbar:
+  title: "Haley Oleynik"
+  left:
+    - text: "Home"
+      icon: fa-ship
+      href: index.html
+    - text: "Research"
+      icon: fa-fish
+      menu:
+        - text: "Publications"
+          icon: fa-copy
+          href: Publications.html
+        - text: "Presentations"
+          icon: fa-file-powerpoint 
+          href: Presentations.html
+    - text: "CV"
+      icon: fa-paperclip     
+      href: collaborate.html
+    - text: "Contact"
+      icon: fa-at
+      href: Contact.html
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/haleyoleynik-noaa     
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/fish_follower       
+    - icon: fa-info-circle fa-la
+      href: info.html 
+output_dir: "."
+output:
+  html_document:
+    theme: journal
+    highlight: textmate
+    #css: style.css
+    fig_caption: true
+    toc: true
+    toc_float: true
+```
+
+You can even have only icons with no text, shown under the right header for my github and twitter links. 
+
+And if you want a **drop down menu**, like I have for my research, you can add that second level menu as shown above. 
+
+#### Add images 
+
+This is easy, just save them to an images foulder in your GitHub repo and then call them like this anywhere in your `.Rmd` file:
+
+```
+![](./images/picwithfish.jpg)
+```
+
