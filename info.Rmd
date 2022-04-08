@@ -124,7 +124,7 @@ Now to the fun stuff! These are things I learned slowly while building my websit
 
 #### Webpage style / theme 
 
-Okay this is the easiest, but for me it was surprisingly hard to find all my options. I finally found this awesome resource: **[A THEME GALLERY](https://bootswatch.com/)**. 
+Okay this is the easiest, but for me it was surprisingly hard to find all my options. I finally found this awesome resource: [A THEME GALLERY](https://bootswatch.com/). 
 
 Another way to try them out is to just change the theme and **knit** locally to see how they look (I think I did this with almost every theme...)
 
@@ -154,7 +154,7 @@ Now `rmarkdown::render_site()` in your R console and **knit** one of your pages 
 
 #### Add icons 
 
-Okay, this is super easy, there are a bunch of font awesome icons built in so you can just call them in your `_site.yml`. Here is the `ICON GALLERY` (just be sure to choose the free icons). Once you've picked out your icons, all you do is add them to your `_site.yml` like I have below: 
+Okay, this is super easy, there are a bunch of font awesome icons built in so you can just call them in your `_site.yml`. Here is the [ICON GALLERY](https://fontawesome.com/v5/search) (just be sure to choose the free icons). Once you've picked out your icons, all you do is add them to your `_site.yml` like I have below: 
 
 ```
 name: "Haley Oleynik"

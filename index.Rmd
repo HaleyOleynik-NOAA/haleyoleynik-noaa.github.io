@@ -18,9 +18,13 @@ My work in Alaska sparked my interest in fish population dynamics and lead me to
 
 After graduating from UD I completed a [NOAA Sea Grant Knauss Marine Policy Fellowship](https://seagrant.noaa.gov/Knauss-Fellowship-Program) in 2021 working with the [NOAA Fisheries Office of Science and Technology](https://www.fisheries.noaa.gov/about/office-science-and-technology) National Stock Assessment Program.
 
-My research interests include quantitative fish ecology, population modeling, Bayesian fisheries assessment, and fisheries management evaluation. My PhD research will likely focus on understanding the impacts that top marine predators have on economically important fish species through exploration of multispecies interactions and time varying natural mortality in stock assessment models. 
+My research interests include quantitative fish ecology, population modeling, Bayesian fisheries assessment, and fisheries management evaluation. My PhD research will focus on understanding the ecological and socioeconomic impacts of pinnipeds (seals and sea lions) on British Columbia fisheries by using meta-analysis of stock-recruit data, assessment of spin-off economic effects, and retrospective analysis in a decision analytic framework. 
 
 I'm passionate about making science, particularly quantitative and technical, inclusive and accessible to all. And I'm an enthusiast and perpetual student of R. As I learn, [I will share](https://haleyoleynik-noaa.github.io/HaleyOleynik/info.html). Please feel free to [reach out](https://haleyoleynik-noaa.github.io/HaleyOleynik/index.html)! I'm always happy to chat about R, fisheries, modeling, Knauss, UD, UBC, etc. 
+
+## TL;DR
+
+I'm a PhD student and quantitative fish ecologist. I love fish, R, data, and modeling. 
 
 ![](./images/picwithfish.jpg)
 ![](./images/Alaska2.jpeg)

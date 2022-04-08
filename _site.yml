@@ -8,11 +8,11 @@ navbar:
     - text: "Research"
       icon: fa-fish
       menu:
-        - text: "Publications"
+        - text: "Publications (Google Scholar)"
           icon: fa-copy
-          href: Publications.html
+          href: https://scholar.google.com/citations?user=0zgwzSkAAAAJ&hl=en
         - text: "Presentations"
-          icon: fa-file-powerpoint 
+          icon: fa-chart-area 
           href: Presentations.html
     - text: "CV"
       icon: fa-paperclip     
