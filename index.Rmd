@@ -28,4 +28,6 @@ I'm a PhD student and quantitative fish ecologist. I love fish, R, data, and mod
 
 ![](./images/picwithfish.jpg)
 ![](./images/Alaska2.jpeg)
-
+![](./images/Alaska1.jpg) 
+![](./images/birds.jpg) 
+![](./images/me.jpg) 

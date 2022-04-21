@@ -2,12 +2,18 @@
 title: "Contact me"
 ---
 
-|  |  | 
-| ------------ | -------------- | 
-| **Personal Email:** | haleyoleynik@gmail.com | 
-| **PhD Email:** | h.oleynik@oceans.ubc.ca |
-| **Cell phone:** | 571-271-2105 | 
+I'm currently located in Vancouver, BC at the Institute for the Oceans and Fisheries (IOF) at UBC. I want to recognize that IOF and all of UBC is located on the traditional, ancestral, and unceded territory of the xʷməθkʷəy̓əm (Musqueam) people. [Learn more](https://indigenous.ubc.ca/indigenous-engagement/musqueam-and-ubc/).
+
+To find out more about the history and culture of the lands you live, work, and/or conduct research on, visit https://native-land.ca. 
+
+-----------------
+
+**Personal Email:** haleyoleynik@gmail.com  
+
+**PhD Email:** h.oleynik@oceans.ubc.ca 
+
+**Cell phone:** 571-271-2105 
+
+-----------------
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.6802975353903!2d-123.25347988438665!3d49.263505279329266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548672c9fda34a57%3A0xa65f924a3fe093a!2sInstitute%20for%20the%20Oceans%20and%20Fisheries!5e0!3m2!1sen!2sca!4v1650306487359!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-![](./images/Alaska1.jpg)
