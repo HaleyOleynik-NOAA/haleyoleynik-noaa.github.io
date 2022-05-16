@@ -4,7 +4,9 @@ title: ""
 
 # Ramblings and Resources 
 
-My personal philosophy is that R can do anything, and I've yet to be proven wrong. I want to share the wonders of R, but I should start by saying there are **thousands** of amazing resources online for R, coding, data analysis, GitHub, etc., some of which I'll link below. What I share here is definitely repeated. So maybe this is more a resource for myself than anyone else. But much of what I have learned came from others' personal websites, blogs, and answers on stack exchange. So maybe someone out there googling random things on the interweb will find these resources.. I can only hope. 
+Here I'll share some of what I've learned - mostly technical R and Git related things, but also Knauss and PhD info as well. 
+
+I'll start with R. My personal philosophy is that R can do anything, and I've yet to be proven wrong. I want to share the wonders of R, but I should start by saying there are **thousands** of amazing resources online for R, coding, data analysis, GitHub, etc., some of which I'll link below. What I share here is definitely repeated. So maybe this is more a resource for myself than anyone else. But much of what I have learned came from others' personal websites, blogs, and answers on stack exchange. So maybe someone out there googling random things on the interweb will find these resources.. I can only hope. 
 
 Please [contact me](https://haleyoleynik-noaa.github.io/HaleyOleynik/Contact.html) if you have questions or want help! 
 
@@ -208,4 +210,21 @@ This is easy, just save them to an images foulder in your GitHub repo and then c
 ```
 ![](./images/picwithfish.jpg)
 ```
+
+## Resources for quant ecologists and marine scientists 
+
+### Seminar Series 
+
+Here's a list of seminar series I mostly learned about while I was a Knauss fellow, but that I still now attend as a PhD student. Sometimes it's nice to get out of your PhD bubble and see some research going on at different institutions or outside your field entirely. 
+
+1. [UBC Institute for the Oceans and Fisheries Quant Seminar](https://oceans.ubc.ca/news-and-events/iof-seminars/quantitive-seminars/)
+2. [NOAA Central Library Seminar Series](https://libguides.library.noaa.gov/c.php?g=813045&p=8437730) - I love the stock assessment seminar and the Knauss lunch and learn series! 
+3. [UW School of Aquatic and Fishery Science Quant Seminar](https://fish.uw.edu/news-events/seminar-series/quantitative-seminar/)
+4. [UW SAFS Fisheries Think Tank](http://puntlab.washington.edu/fisheries-think-tank/)
+5. [NWFSC Monster Jam seminar](https://www.fisheries.noaa.gov/nwfsc-monster-seminar-jam)
+6. [International Pacific Halibut Commission Seminar Series](https://iphc.int/the-commission/iphc-seminar-series)
+8. [Alaska Groundfish seminar series](https://www.fisheries.noaa.gov/alaska/outreach-and-education/2021-alaska-fisheries-science-center-groundfish-seminar-series)
+9. [ALL NOAA science seminars](https://www.star.nesdis.noaa.gov/star/NOAAScienceSeminars.php) - you can also add these to your calendar and sign up for a weekly email digest! 
+
+
 
