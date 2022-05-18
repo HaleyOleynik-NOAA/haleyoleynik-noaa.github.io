@@ -43,6 +43,8 @@ I use [GitHub Desktop](https://desktop.github.com/) for my workflow. But you can
 
 R and GitHub did this, not me! I'm going to try to lay out how to do this in a step-by-step way so that even someone with little to no experience with R or GitHub can do this, because not all scientists use these platforms, but I think all scientists should have a personal website that they don't have to wrestle with wordpress, wix, squarespace, etc. to build (believe me, I've been there). I first learned of this in Ben Best’s [R3 Workshop](https://noaa-iea.github.io/r3-train/index.html). All the workshop materials and recordings are online, so check it out if you want more RStudio learnings. 
 
+> picture step-by-step coming soon
+
 ### Create a repo 
 
 Like I showed above, [create a new repo in GitHub](). 
@@ -70,9 +72,9 @@ title: "Haley Oleynik (she/her)"
 ---
 ```
 
-4. Type all your info below this, [here's what my whole index file](https://github.com/HaleyOleynik-NOAA/HaleyOleynik/blob/main/index.Rmd) looks like for reference. 
+4. Type all your info below this, [here's what my whole index file](https://github.com/HaleyOleynik-NOAA/HaleyOleynik/blob/main/index.Rmd) looks like for reference. Here's a great short-and-sweet [guide on R Markdown](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf), if you've never done it. It's seriously very easy, it just takes a little while to remember all the formatting tricks. 
 
-Add more pages! Save another page, maybe `research.Rmd`:
+5. Add more pages! Save another page, maybe `research.Rmd`:
 
 ```
 ---
@@ -82,7 +84,7 @@ title: "Research"
 Research description, publications, etc.
 ```
 
-Now we'll make a `_site.yml` page. RStudio needs this to build the website. 
+#### Now we'll make a `_site.yml` page. RStudio needs this to build the website. 
 
 1. Create a new text file by **File > New File > Text File** and paste the following:
 
@@ -102,11 +104,11 @@ output_dir: "."
 
 ### Render your webpage 
 
-Now, to build the website all you'll need to do is run `rmarkdown::render_site()` in your R console.
+1. Now, to build the website all you'll need to do is run `rmarkdown::render_site()` in your R console.
 
-To see how it looks, **knit** your `index.Rmd` or `Research.Rmd`. You'll be able to view the whole site locally, in your viewer pane (or in a pop up window). 
+2. To see how it looks, **knit** your `index.Rmd` or `Research.Rmd`. You'll be able to view the whole site locally, in your viewer pane (or in a pop up window). 
 
-Now `commit` and `push` the changes you've made to the files.  
+3. Now `commit` and `push` the changes you've made to the files.  
 
 ### Activate GitHub Pages 
 
@@ -197,13 +199,13 @@ output:
     toc_float: true
 ```
 
-You can even have only icons with no text, shown under the right header for my github and twitter links. 
+You can even have only icons with no text, shown under the **right** header for my github and twitter links. 
 
-And if you want a **drop down menu**, like I have for my research, you can add that second level menu as shown above. 
+And if you want a **drop down menu**, like I have for my **research**, you can add that second level menu as shown above. 
 
 #### Add images 
 
-This is easy, just save them to an images foulder in your GitHub repo and then call them like this anywhere in your `.Rmd` file:
+This is easy, just save them to an `images` folder in your GitHub repo and then call them like this anywhere in your `.Rmd` file:
 
 ```
 ![](./images/picwithfish.jpg)

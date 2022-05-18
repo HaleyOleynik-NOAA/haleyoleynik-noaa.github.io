@@ -446,6 +446,9 @@ add <code>.gitignore</code> (type R to get the R .gitignore)</li>
 <div id="how-i-built-this-website" class="section level2">
 <h2>How I built this website</h2>
 <p>R and GitHub did this, not me! I’m going to try to lay out how to do this in a step-by-step way so that even someone with little to no experience with R or GitHub can do this, because not all scientists use these platforms, but I think all scientists should have a personal website that they don’t have to wrestle with wordpress, wix, squarespace, etc. to build (believe me, I’ve been there). I first learned of this in Ben Best’s <a href="https://noaa-iea.github.io/r3-train/index.html">R3 Workshop</a>. All the workshop materials and recordings are online, so check it out if you want more RStudio learnings.</p>
+<blockquote>
+<p>picture step-by-step coming soon</p>
+</blockquote>
 <div id="create-a-repo" class="section level3">
 <h3>Create a repo</h3>
 <p>Like I showed above, <a href="">create a new repo in GitHub</a>.</p>
@@ -472,15 +475,16 @@ add <code>.gitignore</code> (type R to get the R .gitignore)</li>
 title: &quot;Haley Oleynik (she/her)&quot;
 ---</code></pre>
 <ol start="4" style="list-style-type: decimal">
-<li>Type all your info below this, <a href="https://github.com/HaleyOleynik-NOAA/HaleyOleynik/blob/main/index.Rmd">here’s what my whole index file</a> looks like for reference.</li>
+<li><p>Type all your info below this, <a href="https://github.com/HaleyOleynik-NOAA/HaleyOleynik/blob/main/index.Rmd">here’s what my whole index file</a> looks like for reference. Here’s a great short-and-sweet <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">guide on R Markdown</a>, if you’ve never done it. It’s seriously very easy, it just takes a little while to remember all the formatting tricks.</p></li>
+<li><p>Add more pages! Save another page, maybe <code>research.Rmd</code>:</p></li>
 </ol>
-<p>Add more pages! Save another page, maybe <code>research.Rmd</code>:</p>
 <pre><code>---
 title: &quot;Research&quot;
 ---
 
 Research description, publications, etc.</code></pre>
-<p>Now we’ll make a <code>_site.yml</code> page. RStudio needs this to build the website.</p>
+<div id="now-well-make-a-_site.yml-page.-rstudio-needs-this-to-build-the-website." class="section level4">
+<h4>Now we’ll make a <code>_site.yml</code> page. RStudio needs this to build the website.</h4>
 <ol style="list-style-type: decimal">
 <li>Create a new text file by <strong>File &gt; New File &gt; Text File</strong> and paste the following:</li>
 </ol>
@@ -497,11 +501,14 @@ output_dir: &quot;.&quot;</code></pre>
 <li>Save the file as <code>_site.yml</code></li>
 </ol>
 </div>
+</div>
 <div id="render-your-webpage" class="section level3">
 <h3>Render your webpage</h3>
-<p>Now, to build the website all you’ll need to do is run <code>rmarkdown::render_site()</code> in your R console.</p>
-<p>To see how it looks, <strong>knit</strong> your <code>index.Rmd</code> or <code>Research.Rmd</code>. You’ll be able to view the whole site locally, in your viewer pane (or in a pop up window).</p>
-<p>Now <code>commit</code> and <code>push</code> the changes you’ve made to the files.</p>
+<ol style="list-style-type: decimal">
+<li><p>Now, to build the website all you’ll need to do is run <code>rmarkdown::render_site()</code> in your R console.</p></li>
+<li><p>To see how it looks, <strong>knit</strong> your <code>index.Rmd</code> or <code>Research.Rmd</code>. You’ll be able to view the whole site locally, in your viewer pane (or in a pop up window).</p></li>
+<li><p>Now <code>commit</code> and <code>push</code> the changes you’ve made to the files.</p></li>
+</ol>
 </div>
 <div id="activate-github-pages" class="section level3">
 <h3>Activate GitHub Pages</h3>
@@ -579,12 +586,12 @@ output:
     fig_caption: true
     toc: true
     toc_float: true</code></pre>
-<p>You can even have only icons with no text, shown under the right header for my github and twitter links.</p>
-<p>And if you want a <strong>drop down menu</strong>, like I have for my research, you can add that second level menu as shown above.</p>
+<p>You can even have only icons with no text, shown under the <strong>right</strong> header for my github and twitter links.</p>
+<p>And if you want a <strong>drop down menu</strong>, like I have for my <strong>research</strong>, you can add that second level menu as shown above.</p>
 </div>
 <div id="add-images" class="section level4">
 <h4>Add images</h4>
-<p>This is easy, just save them to an images foulder in your GitHub repo and then call them like this anywhere in your <code>.Rmd</code> file:</p>
+<p>This is easy, just save them to an <code>images</code> folder in your GitHub repo and then call them like this anywhere in your <code>.Rmd</code> file:</p>
 <pre><code>![](./images/picwithfish.jpg)</code></pre>
 </div>
 </div>
