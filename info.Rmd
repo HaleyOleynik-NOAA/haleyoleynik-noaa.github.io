@@ -41,7 +41,7 @@ I use [GitHub Desktop](https://desktop.github.com/) for my workflow. But you can
 
 ## How I built this website 
 
-R and GitHub did this, not me! I'm going to try to lay out how to do this in a step-by-step way so that even someone with little to no experience with R or GitHub can do this, because not all scientists use these platforms, but I think all scientists should have a personal website that they don't have to wrestle with wordpress, wix, squarespace, etc. to build (believe me, I've been there). I first learned of this in Ben Best’s [R3 Workshop](https://noaa-iea.github.io/r3-train/index.html). All the workshop materials and recordings are online, so check it out if you want more RStudio learnings. 
+R and GitHub did this, not me! Here's a step-by-step of how I built this website, so that even someone with little to no experience with R or GitHub can do it too - because not all scientists use these platforms, but I think all scientists should have a personal website that they don't have to wrestle with wordpress, wix, squarespace, etc. to build (believe me, I've been there). I first learned of this in Ben Best’s [R3 Workshop](https://noaa-iea.github.io/r3-train/index.html). All the workshop materials and recordings are online, so check it out if you want more RStudio learnings. 
 
 > picture step-by-step coming soon
 
