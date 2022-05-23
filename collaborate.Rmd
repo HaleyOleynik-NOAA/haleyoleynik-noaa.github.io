@@ -15,7 +15,10 @@ shelf(
 # icons::download_octicons()
 ```
 
-<embed src="./CV/HaleyOleynikCV.pdf" type="application/pdf">
+```{r, echo = FALSE}
+knitr::include_graphics("./CV/HaleyOleynikCV.pdf", dpi = NA)
+```
+
 
 ## Education 
 
