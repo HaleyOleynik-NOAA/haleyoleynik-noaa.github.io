@@ -15,7 +15,7 @@ shelf(
 # icons::download_octicons()
 ```
 
-```{r, echo = FALSE}
+```{r, echo=FALSE, out.width="100%", fig.cap="Haley's CV"}
 knitr::include_graphics("./CV/HaleyOleynikCV.pdf", dpi = NA)
 ```
 
