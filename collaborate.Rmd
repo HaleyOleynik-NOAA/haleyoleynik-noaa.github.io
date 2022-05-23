@@ -15,10 +15,11 @@ shelf(
 # icons::download_octicons()
 ```
 
-```{r, echo=FALSE, out.width="100%", fig.cap="Haley's CV"}
-knitr::include_graphics("./CV/HaleyOleynikCV.pdf", dpi = NA)
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics("./CV/HaleyOleynikCV.pdf")
 ```
 
+![](./CV/HaleyOleynikCV.pdf)
 
 ## Education 
 
