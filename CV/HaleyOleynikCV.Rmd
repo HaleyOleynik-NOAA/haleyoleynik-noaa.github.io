@@ -1,0 +1,151 @@
+---
+output: stevetemplates::cv
+geometry: margin=1in
+
+title: "CV"
+author: Haley A. Oleynik
+
+jobtitle: "PhD Student"
+address: "Institute for the Oceans and Fisheries, University of British Columbia"
+fontawesome: yes
+email: h.oleynik@oceans.ubc.ca
+#github: haleyoleynik
+#twitter: fish_follower
+#osf: "Enter 5 digit osf string here"
+phone: "+1 571 271 2105"
+web: haleyoleynik.github.io
+updated: TRUE
+rdateformat: "`r format(Sys.time(), '%d %b %Y')`"
+
+keywords: R Markdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
+
+# EDUCATION
+
+**Colby College**, *Waterville, Maine*, **B.A.** Biology & Sociology \hfill 2015
+
+**University of Delaware**, *Lewes, Delaware*, **M.S.** Marine Science \hfill 2020
+
+**University of British Columbia**, *Vancouver, BC*, **PhD** Fisheries Science \hfill in progress
+
+---------------------------------------------
+
+# RESEARCH EXPERIENCE
+
+**PhD Student** 
+
+*Institute for the Oceans and Fisheries* University of British Columbia \hfill Sept. 2020 - Present
+
+- Research focuses on ecological and socioeconomic impacts of Pinniped population growth on British Columbia fisheries
+
+**Master's Student** 
+
+*School of Marine Science and Policy* University of Delaware \hfill Sept. 2018 - July 2020
+
+- Analyzed data from a long term trawl survey using multivariate statistical methods in R to explore changes in fish and invertebrate assemblages and overall community composition in Delaware Bay through time and identify physical and anthropogenic drivers of these changes
+
+**Undergraduate Senior Honors Thesis** 
+
+*Department of Sociology* Colby College \hfill Sept. 2014 - May 2015
+
+Thesis: *Change and Adaptation in the Maine Lobster Fishing Industry*
+
+- Collected and analyzed quantitative and qualitative data to understand the societal impacts of the shifting lobster population and subsequent management on the Lobster fishing industry in Maine
+
+**Research Intern** 
+
+*CIEE Bonaire* Bonaire, Netherland Antilles \hfill June 2014 - Aug 2014
+
+- Used SCUBA field sampling methods to catch invasive lionfish species, *Pterois*, and observe behavioral patterns to explore the impact lionfish have on juvenile fish populations in Bonaire
+
+**Research Intern**
+
+*Smithsonian Natural History Museum* Washington D.C. \hfill Jan 2013 - Feb 2013
+
+- Curated, identified, and photographed over 50 species of pteropoda to catalogue morphology for research of the genetics, morphology, and biogeographic information of pteropods to better understand ocean connectivity
+
+---------------------------------------------
+
+# PROFESSIONAL EXPERIENCE
+
+**2021 NOAA Sea Grant John A. Knauss Marine Policy Fellow**
+
+*National Stock Assessment Program*, NOAA Fisheries \hfill Feb 2021 - Feb 2022
+
+- Supported the National Stock Assessment Program in the Office of Science and Technology by organizing a technical community, developing the Fisheries Integrated Toolbox, and assisting in research to advance the NOAA stock assessment enterprise
+
+**Communications Team Member** 
+
+*Association of the Marine Laboratories of the Caribbean* \hfill June 2015 - Present
+
+- Assist the Caribbean based nonprofit remotely with member relations, social media campaigns, outreach, and marketing
+
+**North Pacific Groundfish Observer**
+
+*Saltwater Inc. / NOAA Fisheries* \hfill June 2016 – Jan 2018 
+
+- Collected data on catch, bycatch, and fishing effort on board commercial Alaskan fishing vessels to be used by the National Marine Fisheries Service to monitor fish populations, set catch limits, and manage the commercial Alaskan fisheries
+
+---------------------------------------------
+
+# PUBLICATIONS
+
+<div class="csl-entry">Mathews, J. A., Hale, E. A., **Oleynik, H. A.**, et al. (2022) *Exploring Trends in Abundance of Young-of-the-Year and Age-1 Atlantic Croaker, Black Drum, Spot, and Weakfish in Relation to Salinity, Temperature, and Large-Scale Climatic Signals in a Mid-Atlantic Estuary.* <i>Transactions of the American Fisheries Society</i>, <i>151</i>(2), 150–171. https://doi.org/10.1002/TAFS.10332</div>
+
+**Oleynik, H. A.** (2020). *Changes in a Mid-Atlantic Estuary: Trends and Drivers of the Fish and Macroinvertebrate Community in Delaware Bay.* https://udspace.udel.edu/handle/19716/28649 
+
+---------------------------------------------
+
+# PRESENTATIONS
+
+*"Long-Term Shifts in the Fish and Macroinvertebrate Community in a Mid-Atlantic Estuary"* American Fisheries Society Annual Conference \hfill 2021
+
+*"Changes in a Mid Atlantic Estuary: Long Term Shifts in the Fish and Macroinvertebrate Community in Delaware Bay"* NOAA Central Library \hfill 2021 
+
+*"Long-Term Shifts in the Fish and Macroinvertebrate Community in a North American Estuary"* World Fisheries Congress \hfill 2021
+
+*"Changes in a Mid-Atlantic Estuary: Long-Term Trends in Environmental Conditions and Marine Community in Delaware Bay"* American Fisheries Society Mid-Atlantic Chapter Meeting \hfill 2020
+
+---------------------------------------------
+
+# AWARDS
+
+**Daiber Fellowship** *University of Delaware*\hfill 2019
+
+**Women of Promise Award** *University of Delaware* \hfill 2019
+
+**Okie Fellowship** *University of Delaware* \hfill 2018
+
+**Dean’s List** *Colby College* \hfill 2014-2015
+
+---------------------------------------------
+
+# LEADERSHIP AND OUTREACH
+
+*Society for Women in Marine Science* **Co-Chair**, University of Delaware Chapter \hfill 2019-2020
+
+*Graduate Student Association* **Co-Chair**, UD School of Marine Science and Policy \hfill 2019-2020
+
+---------------------------------------------
+
+# SKILLS
+
+**Computing** 
+
+- Advanced in R and WinBUGS, experience with C++, Stan, Stock Synthesis, TMB 
+
+**Field & Lab** 
+
+- Small boat operation, random field sampling, otolith collection, shark tagging, marine animal husbandry 
+
+**Diving** 
+
+- AAUS Scientific Diver, SDI Rescue Diver
+
+---------------------------------------------
