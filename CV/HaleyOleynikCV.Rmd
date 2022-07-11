@@ -40,15 +40,15 @@ urlcolor: blue
 
 **PhD Student** 
 
-*Institute for the Oceans and Fisheries* University of British Columbia \hfill Sept. 2020 - Present
+*Institute for the Oceans and Fisheries* University of British Columbia \hfill Sept 2020 - Present
 
-- Research focuses on ecological and socioeconomic impacts of Pinniped population growth on British Columbia fisheries
+- Thesis research will include a multifactor, multistock impact analysis of salmon and steelhead fisheries in British Columbia and a retrospective analysis of ecological and socioeconomic conditions in these fisheries
 
 **Master's Student** 
 
-*School of Marine Science and Policy* University of Delaware \hfill Sept. 2018 - July 2020
+*School of Marine Science and Policy* University of Delaware \hfill Sept 2018 - July 2020
 
-- Analyzed data from a long term trawl survey using multivariate statistical methods in R to explore changes in fish and invertebrate assemblages and overall community composition in Delaware Bay through time and identify physical and anthropogenic drivers of these changes
+- Analyzed data from the Delaware state trawl survey using multivariate statistical methods in R to describe the fish and invertebrate community in Delaware Bay, identify physical drivers of community composition, and evaluate long-term changes in the community
 
 **Undergraduate Senior Honors Thesis** 
 
@@ -56,7 +56,7 @@ urlcolor: blue
 
 Thesis: *Change and Adaptation in the Maine Lobster Fishing Industry*
 
-- Collected and analyzed quantitative and qualitative data to understand the societal impacts of the shifting lobster population and subsequent management on the Lobster fishing industry in Maine
+- Collected and analyzed quantitative and qualitative data to understand the societal impacts of the shifting lobster population and subsequent management on the lobster fishing industry in Maine
 
 **Research Intern** 
 
@@ -140,7 +140,7 @@ Thesis: *Change and Adaptation in the Maine Lobster Fishing Industry*
 
 **Computing** 
 
-- Advanced in R and WinBUGS, experience with C++, Stan, Stock Synthesis, TMB 
+- Advanced in R, WinBUGS, Git/GitHub; experience with C++, Stan, Stock Synthesis, Template Model Builder (TMB) 
 
 **Field & Lab** 
 

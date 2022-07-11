@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  5 JUL 2022 10:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.19)  11 JUL 2022 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,15 +736,15 @@ Package rerunfilecheck Info: File `HaleyOleynikCV.out' has not changed.
 (rerunfilecheck)             Checksum: F8C3160D0F0C689FCF099E98923839B3;919.
  ) 
 Here is how much of TeX's memory you used:
- 26231 strings out of 480260
- 485001 string characters out of 5893586
+ 26241 strings out of 480260
+ 485086 string characters out of 5893586
  781907 words of memory out of 5000000
  43430 multiletter control sequences out of 15000+600000
- 512690 words of font info for 232 fonts, out of 8000000 for 9000
+ 513252 words of font info for 240 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  115i,12n,118p,1203b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/haleyoleynik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc} </Users/haleyoleynik/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk>{/Users/haleyoleynik/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</Users/haleyoleynik/Library/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></Users/haleyoleynik/Library/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></Users/haleyoleynik/Library/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></Users/haleyoleynik/Library/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></Users/haleyoleynik/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/haleyoleynik/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/haleyoleynik/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on HaleyOleynikCV.pdf (3 pages, 116457 bytes).
+Output written on HaleyOleynikCV.pdf (3 pages, 116667 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
