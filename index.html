@@ -13,7 +13,7 @@
 
 <title>Haley Oleynik (she/her)</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -65,6 +65,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -85,6 +86,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -142,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -310,7 +318,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -327,7 +335,7 @@ div.tocify {
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-fish"></span>
      
     Research
@@ -402,24 +410,63 @@ div.tocify {
 <p><img align="right" src="images/IMG_5550.JPG" width="400" alt="Haley in front of fish sculpture"></p>
 <div id="about-me" class="section level2">
 <h2>About me</h2>
-<p>Hi there, I’m Haley! I’m currently a PhD student at the University of British Columbia <a href="https://oceans.ubc.ca/">Institute for the Oceans and Fisheries</a> working with <a href="https://oceans.ubc.ca/murdoch-mcallister/">Murdoch McAllister</a>.</p>
+<p>Hi there, I’m Haley! I’m currently a PhD student at the University of
+British Columbia <a href="https://oceans.ubc.ca/">Institute for the
+Oceans and Fisheries</a> working with <a
+href="https://oceans.ubc.ca/murdoch-mcallister/">Murdoch
+McAllister</a>.</p>
 <div id="background" class="section level4">
 <h4>Background</h4>
-<p>I received my BA in biology and sociology from <a href="https://www.colby.edu/">Colby College</a> in 2015 and my MS in marine studies from the University of Delaware <a href="https://www.udel.edu/academics/colleges/ceoe/">College of Earth, Ocean, and the Environment</a> in 2020 where I worked with <a href="https://www.udel.edu/academics/colleges/ceoe/departments/smsp/faculty/aaron-carlisle/">Aaron Carlisle</a>.</p>
-<p>My undergraduate research focused on how environmental change and management have influenced the social structure and dynamics of the Lobster fishing industry in Maine. After graduating I worked as a <a href="https://www.fisheries.noaa.gov/alaska/fisheries-observers/north-pacific-observer-program">North Pacific Groundfish Observer</a> for the National Marine Fisheries Service where I lived on commercial Pollock and Rockfish fishing vessels in the Bering Sea and Gulf of Alaska and collected data on catch, bycatch, and fishing effort to support stock assessment science.</p>
-<p>My work in Alaska sparked my interest in fish population dynamics and lead me to pursue my Master’s at the University of Delaware. My Master’s research focused on fish community dynamics and associated environmental drivers in the Delaware Bay using a long-term, state run trawl survey.</p>
-<p>After graduating from UD I completed a <a href="https://seagrant.noaa.gov/Knauss-Fellowship-Program">NOAA Sea Grant Knauss Marine Policy Fellowship</a> in 2021 working with the <a href="https://www.fisheries.noaa.gov/about/office-science-and-technology">NOAA Fisheries Office of Science and Technology</a> National Stock Assessment Program.</p>
+<p>I received my BA in biology and sociology from <a
+href="https://www.colby.edu/">Colby College</a> in 2015 and my MS in
+marine studies from the University of Delaware <a
+href="https://www.udel.edu/academics/colleges/ceoe/">College of Earth,
+Ocean, and the Environment</a> in 2020 where I worked with <a
+href="https://www.udel.edu/academics/colleges/ceoe/departments/smsp/faculty/aaron-carlisle/">Aaron
+Carlisle</a>.</p>
+<p>My undergraduate research focused on how environmental change and
+management have influenced the social structure and dynamics of the
+Lobster fishing industry in Maine. After graduating I worked as a <a
+href="https://www.fisheries.noaa.gov/alaska/fisheries-observers/north-pacific-observer-program">North
+Pacific Groundfish Observer</a> for the National Marine Fisheries
+Service where I lived on commercial Pollock and Rockfish fishing vessels
+in the Bering Sea and Gulf of Alaska and collected data on catch,
+bycatch, and fishing effort to support stock assessment science.</p>
+<p>My work in Alaska sparked my interest in fish population dynamics and
+lead me to pursue my Master’s at the University of Delaware. My Master’s
+research focused on fish community dynamics and associated environmental
+drivers in the Delaware Bay using a long-term, state run trawl
+survey.</p>
+<p>After graduating from UD I completed a <a
+href="https://seagrant.noaa.gov/Knauss-Fellowship-Program">NOAA Sea
+Grant Knauss Marine Policy Fellowship</a> in 2021 working with the <a
+href="https://www.fisheries.noaa.gov/about/office-science-and-technology">NOAA
+Fisheries Office of Science and Technology</a> National Stock Assessment
+Program.</p>
 </div>
 <div id="current-research" class="section level4">
 <h4>Current Research</h4>
-<p>My research interests include quantitative fish ecology, population modeling, Bayesian fisheries assessment, and fisheries management evaluation. My PhD research will focus on understanding the ecological and socioeconomic impacts of pinnipeds (seals and sea lions) on British Columbia fisheries.</p>
-<p>I’m passionate about making science, particularly quantitative and technical, inclusive and accessible to all. As I learn, <a href="https://haleyoleynik.github.io/info.html">I will share</a>. Please feel free to <a href="https://haleyoleynik.github.io/Contact.html">reach out</a>! I’m always happy to chat about R, fisheries, modeling, Knauss, UD, UBC, etc.</p>
+<p>My research interests include quantitative fish ecology, population
+modeling, Bayesian fisheries assessment, and fisheries management
+evaluation. My PhD research will focus on assessing what factors impact
+Pacific salmon and steelhead stocks by conducting multivariate
+stock-recruit analyses for over 50 stocks of Chinook, Coho, Sockeye, and
+Steelhead.</p>
+<p>I’m passionate about making science, particularly quantitative and
+technical, inclusive and accessible to all. As I learn, <a
+href="https://haleyoleynik.github.io/info.html">I will share</a>. Please
+feel free to <a href="https://haleyoleynik.github.io/Contact.html">reach
+out</a>! I’m always happy to chat about R, fisheries, modeling, Knauss,
+UD, UBC, etc.</p>
 </div>
 </div>
 <div id="tldr" class="section level2">
 <h2>TL;DR</h2>
-<p>I’m a PhD student and quantitative fish ecologist. I love fish, R, data, and modeling.</p>
-<p><img src="images/picwithfish.jpg" /> <img src="images/Alaska2.jpeg" /> <img src="images/Alaska1.jpg" /> <img src="images/birds.jpg" /> <img src="images/me.jpg" /></p>
+<p>I’m a PhD student and quantitative fish ecologist. I love fish, R,
+data, and modeling.</p>
+<p><img src="images/picwithfish.jpg" /> <img
+src="images/Alaska2.jpeg" /> <img src="images/Alaska1.jpg" /> <img
+src="images/birds.jpg" /> <img src="images/me.jpg" /></p>
 </div>
 
 
