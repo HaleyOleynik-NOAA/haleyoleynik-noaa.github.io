@@ -72,6 +72,12 @@ urlcolor: blue
 
 # PROFESSIONAL EXPERIENCE
 
+**Graduate Writing Consultant**
+
+*Center for Writing and Scholarly Communication*, UBC \hfill Sept 2022 - Present
+
+- Provide written and in-person feedback to graduate and undergraduate students on written work
+
 **2021 NOAA Sea Grant John A. Knauss Marine Policy Fellow**
 
 *National Stock Assessment Program*, NOAA Fisheries \hfill Feb 2021 - Feb 2022
@@ -138,7 +144,7 @@ urlcolor: blue
 
 ---------------------------------------------
 
-# SKILLS
+# EXPERTISE
 
 **Computing** 
 
