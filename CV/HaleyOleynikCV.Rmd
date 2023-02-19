@@ -38,33 +38,33 @@ urlcolor: blue
 
 # RESEARCH EXPERIENCE
 
-**PhD Student** 
+**PhD Student** \hfill Sept 2020 - Present
 
-*Institute for the Oceans and Fisheries* University of British Columbia \hfill Sept 2020 - Present
+*Institute for the Oceans and Fisheries* University of British Columbia 
 
 - Thesis research will include a multifactor, multistock impact analysis of salmon and steelhead fisheries in British Columbia and a retrospective analysis of ecological and socioeconomic conditions in these fisheries
 
-**Master's Student** 
+**M.S. Student** \hfill Sept 2018 - July 2020
 
-*School of Marine Science and Policy* University of Delaware \hfill Sept 2018 - July 2020
+*School of Marine Science and Policy* University of Delaware 
 
 - Analyzed data from the Delaware state trawl survey using multivariate statistical methods in R to describe the fish and invertebrate community in Delaware Bay, identify physical drivers of community composition, and evaluate long-term changes in the community
 
-**Undergraduate Senior Honors Thesis** 
+**Undergraduate Senior Honors Thesis** \hfill Sept 2014 - May 2015
 
-*Department of Sociology* Colby College \hfill Sept. 2014 - May 2015
+*Department of Sociology* Colby College 
 
 - Collected and analyzed quantitative and qualitative data to understand the societal impacts of the shifting lobster population and subsequent management on the lobster fishing industry in Maine
 
-**Research Intern** 
+**Research Intern** \hfill June 2014 - Aug 2014
 
-*CIEE Bonaire* Bonaire, Netherland Antilles \hfill June 2014 - Aug 2014
+*CIEE Bonaire* Bonaire, Netherland Antilles 
 
 - Used SCUBA field sampling methods to catch invasive lionfish species, *Pterois*, and observe behavioral patterns to explore the impact lionfish have on juvenile fish populations in Bonaire
 
-**Research Intern**
+**Research Intern** \hfill Jan 2013 - Feb 2013
 
-*Smithsonian Natural History Museum* Washington D.C. \hfill Jan 2013 - Feb 2013
+*Smithsonian Natural History Museum* Washington D.C. 
 
 - Curated, identified, and photographed over 50 species of pteropoda to catalogue morphology for research of the genetics, morphology, and biogeographic information of pteropods to better understand ocean connectivity
 
@@ -72,33 +72,37 @@ urlcolor: blue
 
 # PROFESSIONAL EXPERIENCE
 
-**Graduate Writing Consultant**
+**Graduate Writing Consultant** \hfill Sept 2022 - Present
 
-*Center for Writing and Scholarly Communication*, UBC \hfill Sept 2022 - Present
+*Center for Writing and Scholarly Communication* University of British Columbia 
 
-- Provide written and in-person feedback to graduate and undergraduate students on written work
+- Provide written and in-person consultations to graduate and undergraduate students on written work including class assignments, manuscripts, and dissertations
 
-**2021 NOAA Sea Grant John A. Knauss Marine Policy Fellow**
+**2021 NOAA Sea Grant John A. Knauss Marine Policy Fellow** \hfill Feb 2021 - Feb 2022
 
-*National Stock Assessment Program*, NOAA Fisheries \hfill Feb 2021 - Feb 2022
+*National Stock Assessment Program* NOAA Fisheries 
 
 - Supported the National Stock Assessment Program in the Office of Science and Technology by organizing a technical community, developing the Fisheries Integrated Toolbox, and assisting in research to advance the NOAA stock assessment enterprise
 
-**Communications Team Member** 
+**Communications Committee Chair** \hfill Oct 2022 - Present
 
-*Association of the Marine Laboratories of the Caribbean* \hfill June 2015 - Present
+- **Committee Member** \hfill June 2015 - Oct 2022
 
-- Assist the Caribbean based nonprofit remotely with member relations, social media campaigns, outreach, and marketing
+*Association of the Marine Laboratories of the Caribbean* 
 
-**North Pacific Groundfish Observer**
+- Manage internal and external communication for the AMLC, a nonprofit which connects marine laboratories, scientists, students, and stakeholders in the Wider Caribbean Region.
 
-*Saltwater Inc. / NOAA Fisheries* \hfill June 2016 – Jan 2018 
+**North Pacific Groundfish Observer** \hfill June 2016 – Jan 2018 
+
+*Saltwater Inc. / NOAA Fisheries* 
 
 - Collected data on catch, bycatch, and fishing effort on board commercial Alaskan fishing vessels to be used by the National Marine Fisheries Service to monitor fish populations, set catch limits, and manage the commercial Alaskan fisheries
 
 ---------------------------------------------
 
 # PUBLICATIONS
+
+ICES (2022): Working Group on Technology Integration for Fishery-Dependent Data (WGTIFD; outputs from 2021 meeting). ICES Scientific Reports. Report. https://doi.org/10.17895/ices.pub.19367885.v1 
 
 <div class="csl-entry">Mathews, J. A., Hale, E. A., **Oleynik, H. A.**, et al. (2022) *Exploring Trends in Abundance of Young-of-the-Year and Age-1 Atlantic Croaker, Black Drum, Spot, and Weakfish in Relation to Salinity, Temperature, and Large-Scale Climatic Signals in a Mid-Atlantic Estuary.* <i>Transactions of the American Fisheries Society</i>, <i>151</i>(2), 150–171. https://doi.org/10.1002/TAFS.10332</div>
 
@@ -136,7 +140,7 @@ urlcolor: blue
 
 # OUTREACH AND ENGAGEMENT 
 
-*REDI Committee* **Member** UBC Institute for the Oceans and Fisheries \hfill 2022-present
+*REDI Committee* **Member**, UBC Institute for the Oceans and Fisheries \hfill 2022-present
 
 *Society for Women in Marine Science* **Co-Chair**, University of Delaware Chapter \hfill 2019-2020
 

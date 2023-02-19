@@ -13,7 +13,7 @@
 
 <title>info.knit</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -65,6 +65,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -85,6 +86,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -142,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -310,7 +318,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -327,7 +335,7 @@ div.tocify {
   </a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-fish"></span>
      
     Research
@@ -368,7 +376,7 @@ div.tocify {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/haleyoleynik-noaa">
+  <a href="https://github.com/haleyoleynik">
     <span class="fa fa-github fa-lg"></span>
      
   </a>
@@ -400,15 +408,34 @@ div.tocify {
 
 <div id="ramblings-and-resources" class="section level1">
 <h1>Ramblings and Resources</h1>
-<p>I’ll start with R. My personal philosophy is that R can do anything, and I’ve yet to be proven wrong. I want to share the wonders of R, but I should start by saying there are <strong>thousands</strong> of amazing resources online for R, coding, data analysis, GitHub, etc., some of which I’ll link below. What I share here is definitely repeated. So maybe this is more a resource for myself than anyone else. But much of what I have learned came from others’ personal websites, blogs, and answers on stack exchange. So maybe someone out there googling random things on the interweb will find these resources.. I can only hope.</p>
-<p>Please <a href="https://haleyoleynik-noaa.github.io/HaleyOleynik/Contact.html">contact me</a> if you have questions or want help!</p>
+<p>I’ll start with R. My personal philosophy is that R can do anything,
+and I’ve yet to be proven wrong. I want to share the wonders of R, but I
+should start by saying there are <strong>thousands</strong> of amazing
+resources online for R, coding, data analysis, GitHub, etc., some of
+which I’ll link below. What I share here is definitely repeated. So
+maybe this is more a resource for myself than anyone else. But much of
+what I have learned came from others’ personal websites, blogs, and
+answers on stack exchange. So maybe someone out there googling random
+things on the interweb will find these resources.. I can only hope.</p>
+<p>Please <a
+href="https://haleyoleynik-noaa.github.io/HaleyOleynik/Contact.html">contact
+me</a> if you have questions or want help!</p>
 <div id="my-git-workflow" class="section level2">
 <h2>My Git Workflow</h2>
-<p>I use <a href="https://desktop.github.com/">GitHub Desktop</a> for my workflow. But you can also use the command line or RStudio to do everything I’m doing below. I’ll share how I use GitHub Desktop, and maybe later I’ll share some other workflows, so stay tuned! This workflow was adapted from Eli Holmes’ <a href="https://rverse-tutorials.github.io/RWorkflow-NWFSC-2021/">Practical R Workflow for Scientists Course</a>, which you can follow along with online. It’s a GREAT resource for begining your GitHub and RStudio journey!</p>
+<p>I use <a href="https://desktop.github.com/">GitHub Desktop</a> for my
+workflow. But you can also use the command line or RStudio to do
+everything I’m doing below. I’ll share how I use GitHub Desktop, and
+maybe later I’ll share some other workflows, so stay tuned! This
+workflow was adapted from Eli Holmes’ <a
+href="https://rverse-tutorials.github.io/RWorkflow-NWFSC-2021/">Practical
+R Workflow for Scientists Course</a>, which you can follow along with
+online. It’s a GREAT resource for begining your GitHub and RStudio
+journey!</p>
 <div id="create-a-repository" class="section level3">
 <h3>Create a repository</h3>
 <ol style="list-style-type: decimal">
-<li>Go to GitHub and create a new repository (the + in the top right)</li>
+<li>Go to GitHub and create a new repository (the + in the top
+right)</li>
 <li>Check:</li>
 </ol>
 <ul class="task-list">
@@ -424,20 +451,29 @@ add <code>.gitignore</code> (type R to get the R .gitignore)</li>
 <li>Copy the url of your new repo</li>
 <li>Open GitHub Desktop</li>
 <li>Click <strong>File &gt; Clone Repository…</strong></li>
-<li>In the popup window, click the <strong>URL</strong> tab to the right and paste in the URL of your repository</li>
-<li>Double check that you have the right folder for the Local Path. I keep all my repositories in <code>Documents/GitHub</code> so they are easier to find.</li>
+<li>In the popup window, click the <strong>URL</strong> tab to the right
+and paste in the URL of your repository</li>
+<li>Double check that you have the right folder for the Local Path. I
+keep all my repositories in <code>Documents/GitHub</code> so they are
+easier to find.</li>
 <li>Click <strong>Clone</strong>.</li>
-<li>Open RStudio and click <strong>New Project</strong> (upper right, blue cube with R)</li>
+<li>Open RStudio and click <strong>New Project</strong> (upper right,
+blue cube with R)</li>
 <li>Click <strong>New Project… &gt; Existing Directory</strong></li>
-<li>Navigate to the folder you just cloned from above and click <strong>Create Project</strong></li>
+<li>Navigate to the folder you just cloned from above and click
+<strong>Create Project</strong></li>
 </ol>
 </div>
 <div id="make-changes-commit-and-push" class="section level3">
 <h3>Make changes, commit, and push</h3>
 <ol style="list-style-type: decimal">
-<li>Make changes to your code or add a file (this can also be done by simply adding a file to that folder, doesn’t have to be done in RStudio)</li>
+<li>Make changes to your code or add a file (this can also be done by
+simply adding a file to that folder, doesn’t have to be done in
+RStudio)</li>
 <li>Switch to GitHub Desktop</li>
-<li>Click the changes that you want to commit (check the little checkbox next to the file). Add a comment to the first line and click <strong>Commit</strong>.</li>
+<li>Click the changes that you want to commit (check the little checkbox
+next to the file). Add a comment to the first line and click
+<strong>Commit</strong>.</li>
 <li>Click the <strong>green up arrow</strong> to Push to GitHub.</li>
 <li>Go back to your GitHub repo online, your changes are now there!</li>
 </ol>
@@ -445,7 +481,15 @@ add <code>.gitignore</code> (type R to get the R .gitignore)</li>
 </div>
 <div id="how-i-built-this-website" class="section level2">
 <h2>How I built this website</h2>
-<p>R and GitHub did this, not me! Here’s a step-by-step of how I built this website, so that even someone with little to no experience with R or GitHub can do it too - because not all scientists use these platforms, but I think all scientists should have a personal website that they don’t have to wrestle with wordpress, wix, squarespace, etc. to build (believe me, I’ve been there). I first learned of this in Ben Best’s <a href="https://noaa-iea.github.io/r3-train/index.html">R3 Workshop</a>. All the workshop materials and recordings are online, so check it out if you want more RStudio learnings.</p>
+<p>R and GitHub did this, not me! Here’s a step-by-step of how I built
+this website, so that even someone with little to no experience with R
+or GitHub can do it too - because not all scientists use these
+platforms, but I think all scientists should have a personal website
+that they don’t have to wrestle with wordpress, wix, squarespace, etc.
+to build (believe me, I’ve been there). I first learned of this in Ben
+Best’s <a href="https://noaa-iea.github.io/r3-train/index.html">R3
+Workshop</a>. All the workshop materials and recordings are online, so
+check it out if you want more RStudio learnings.</p>
 <blockquote>
 <p>picture step-by-step coming soon</p>
 </blockquote>
@@ -453,40 +497,62 @@ add <code>.gitignore</code> (type R to get the R .gitignore)</li>
 <h3>Create a repo</h3>
 <p>Like I showed above, <a href="">create a new repo in GitHub</a>.</p>
 </div>
-<div id="clone-the-repo-to-your-computers-directory" class="section level3">
+<div id="clone-the-repo-to-your-computers-directory"
+class="section level3">
 <h3>Clone the repo to your computers directory</h3>
-<p>Use your workflow of choice to clone the repo from GitHub to your computers directory. If you’ve never used GitHub before, and you created it to make this website (go you!), the easiest way is to do this all in RStudio,</p>
+<p>Use your workflow of choice to clone the repo from GitHub to your
+computers directory. If you’ve never used GitHub before, and you created
+it to make this website (go you!), the easiest way is to do this all in
+RStudio,</p>
 <ol style="list-style-type: decimal">
 <li>Copy the URL of your new repo</li>
 <li>Open an RStudio window</li>
-<li>Go to <strong>File &gt; New Project… &gt; Version Control &gt; GIT &gt; Clone</strong></li>
-<li>Paste the URL and set the directory to where you want this project to land on your computer</li>
+<li>Go to <strong>File &gt; New Project… &gt; Version Control &gt; GIT
+&gt; Clone</strong></li>
+<li>Paste the URL and set the directory to where you want this project
+to land on your computer</li>
 </ol>
 </div>
 <div id="create-a-home-page-and-a-_site.yml" class="section level3">
 <h3>Create a home page and a <code>_site.yml</code></h3>
-<p>Your RStudio project is now open! Congrats! In the top right corner you should see the R cube with the name of your repo next to it. In the bottom right window you should see, in the ‘Files’ tab, you are in the project directory. Now,</p>
+<p>Your RStudio project is now open! Congrats! In the top right corner
+you should see the R cube with the name of your repo next to it. In the
+bottom right window you should see, in the ‘Files’ tab, you are in the
+project directory. Now,</p>
 <ol style="list-style-type: decimal">
 <li>Go to <strong>File &gt; New File &gt; R Markdown…</strong></li>
 <li>Give this a name, not super important, and click ‘OK’</li>
-<li>There will be a bunch of text in this file. Delete it all and put a header with your webpage name, here’s what mine looks like:</li>
+<li>There will be a bunch of text in this file. Delete it all and put a
+header with your webpage name, here’s what mine looks like:</li>
 </ol>
 <pre><code>---
 title: &quot;Haley Oleynik (she/her)&quot;
 ---</code></pre>
 <ol start="4" style="list-style-type: decimal">
-<li><p>Type all your info below this, <a href="https://github.com/HaleyOleynik-NOAA/HaleyOleynik/blob/main/index.Rmd">here’s what my whole index file</a> looks like for reference. Here’s a great short-and-sweet <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">guide on R Markdown</a>, if you’ve never done it. It’s seriously very easy, it just takes a little while to remember all the formatting tricks.</p></li>
-<li><p>Add more pages! Save another page, maybe <code>research.Rmd</code>:</p></li>
+<li><p>Type all your info below this, <a
+href="https://github.com/HaleyOleynik-NOAA/HaleyOleynik/blob/main/index.Rmd">here’s
+what my whole index file</a> looks like for reference. Here’s a great
+short-and-sweet <a
+href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">guide
+on R Markdown</a>, if you’ve never done it. It’s seriously very easy, it
+just takes a little while to remember all the formatting
+tricks.</p></li>
+<li><p>Add more pages! Save another page, maybe
+<code>research.Rmd</code>:</p></li>
 </ol>
 <pre><code>---
 title: &quot;Research&quot;
 ---
 
 Research description, publications, etc.</code></pre>
-<div id="now-well-make-a-_site.yml-page.-rstudio-needs-this-to-build-the-website." class="section level4">
-<h4>Now we’ll make a <code>_site.yml</code> page. RStudio needs this to build the website.</h4>
+<div
+id="now-well-make-a-_site.yml-page.-rstudio-needs-this-to-build-the-website."
+class="section level4">
+<h4>Now we’ll make a <code>_site.yml</code> page. RStudio needs this to
+build the website.</h4>
 <ol style="list-style-type: decimal">
-<li>Create a new text file by <strong>File &gt; New File &gt; Text File</strong> and paste the following:</li>
+<li>Create a new text file by <strong>File &gt; New File &gt; Text
+File</strong> and paste the following:</li>
 </ol>
 <pre><code>name: &quot;Haley Oleynik&quot;
 navbar:
@@ -505,9 +571,14 @@ output_dir: &quot;.&quot;</code></pre>
 <div id="render-your-webpage" class="section level3">
 <h3>Render your webpage</h3>
 <ol style="list-style-type: decimal">
-<li><p>Now, to build the website all you’ll need to do is run <code>rmarkdown::render_site()</code> in your R console.</p></li>
-<li><p>To see how it looks, <strong>knit</strong> your <code>index.Rmd</code> or <code>Research.Rmd</code>. You’ll be able to view the whole site locally, in your viewer pane (or in a pop up window).</p></li>
-<li><p>Now <code>commit</code> and <code>push</code> the changes you’ve made to the files.</p></li>
+<li><p>Now, to build the website all you’ll need to do is run
+<code>rmarkdown::render_site()</code> in your R console.</p></li>
+<li><p>To see how it looks, <strong>knit</strong> your
+<code>index.Rmd</code> or <code>Research.Rmd</code>. You’ll be able to
+view the whole site locally, in your viewer pane (or in a pop up
+window).</p></li>
+<li><p>Now <code>commit</code> and <code>push</code> the changes you’ve
+made to the files.</p></li>
 </ol>
 </div>
 <div id="activate-github-pages" class="section level3">
@@ -515,22 +586,32 @@ output_dir: &quot;.&quot;</code></pre>
 <p>Back in your online GitHub repository:</p>
 <ol style="list-style-type: decimal">
 <li>Go to <strong>Settings</strong> at the far right</li>
-<li>Scroll down and click on <strong>Pages</strong> on the left sidebar</li>
+<li>Scroll down and click on <strong>Pages</strong> on the left
+sidebar</li>
 <li>Choose <code>Branch: main, folder / (root)</code></li>
 <li>Click <strong>Save</strong></li>
-<li>The URL for your new website will show up, yay! Copy it and paste it where you need it.</li>
+<li>The URL for your new website will show up, yay! Copy it and paste it
+where you need it.</li>
 </ol>
 </div>
 <div id="make-it-fancy" class="section level3">
 <h3>Make it fancy</h3>
-<p>Now to the fun stuff! These are things I learned slowly while building my website. Since you’re on my website you can see some of these details in action. For example, the theme (journal) and all the icons on the top menu!</p>
+<p>Now to the fun stuff! These are things I learned slowly while
+building my website. Since you’re on my website you can see some of
+these details in action. For example, the theme (journal) and all the
+icons on the top menu!</p>
 <div id="webpage-style-theme" class="section level4">
 <h4>Webpage style / theme</h4>
-<p>Okay this is the easiest, but for me it was surprisingly hard to find all my options. I finally found this awesome resource: <a href="https://bootswatch.com/">A THEME GALLERY</a>.</p>
-<p>Another way to try them out is to just change the theme and <strong>knit</strong> locally to see how they look (I think I did this with almost every theme…)</p>
+<p>Okay this is the easiest, but for me it was surprisingly hard to find
+all my options. I finally found this awesome resource: <a
+href="https://bootswatch.com/">A THEME GALLERY</a>.</p>
+<p>Another way to try them out is to just change the theme and
+<strong>knit</strong> locally to see how they look (I think I did this
+with almost every theme…)</p>
 <p>Here’s a list of all the theme options:</p>
 <pre><code>“default”, “bootstrap”, “cerulean”, “cosmo”, “darkly”, “flatly”, “journal”, “lumen”, “paper”, “readable”, “sandstone”, “simplex”, “spacelab”, “united”, “yeti”</code></pre>
-<p>To implement a theme, go to your recently created <code>_site.yml</code> and add the last few lines:</p>
+<p>To implement a theme, go to your recently created
+<code>_site.yml</code> and add the last few lines:</p>
 <pre><code>name: &quot;Haley Oleynik&quot;
 navbar:
   title: &quot;Haley Oleynik&quot;
@@ -543,11 +624,19 @@ output_dir: &quot;.&quot;
 output:
   html_document:
     theme: journal</code></pre>
-<p>Now <code>rmarkdown::render_site()</code> in your R console and <strong>knit</strong> one of your pages again to view it locally. Don’t forget to commit and push to GitHub so these changes are made on your real site!</p>
+<p>Now <code>rmarkdown::render_site()</code> in your R console and
+<strong>knit</strong> one of your pages again to view it locally. Don’t
+forget to commit and push to GitHub so these changes are made on your
+real site!</p>
 </div>
 <div id="add-icons" class="section level4">
 <h4>Add icons</h4>
-<p>Okay, this is super easy, there are a bunch of font awesome icons built in so you can just call them in your <code>_site.yml</code>. Here is the <a href="https://fontawesome.com/v5/search">ICON GALLERY</a> (just be sure to choose the free icons). Once you’ve picked out your icons, all you do is add them to your <code>_site.yml</code> like I have below:</p>
+<p>Okay, this is super easy, there are a bunch of font awesome icons
+built in so you can just call them in your <code>_site.yml</code>. Here
+is the <a href="https://fontawesome.com/v5/search">ICON GALLERY</a>
+(just be sure to choose the free icons). Once you’ve picked out your
+icons, all you do is add them to your <code>_site.yml</code> like I have
+below:</p>
 <pre><code>name: &quot;Haley Oleynik&quot;
 navbar:
   title: &quot;Haley Oleynik&quot;
@@ -586,30 +675,56 @@ output:
     fig_caption: true
     toc: true
     toc_float: true</code></pre>
-<p>You can even have only icons with no text, shown under the <strong>right</strong> header for my github and twitter links.</p>
-<p>And if you want a <strong>drop down menu</strong>, like I have for my <strong>research</strong>, you can add that second level menu as shown above.</p>
+<p>You can even have only icons with no text, shown under the
+<strong>right</strong> header for my github and twitter links.</p>
+<p>And if you want a <strong>drop down menu</strong>, like I have for my
+<strong>research</strong>, you can add that second level menu as shown
+above.</p>
 </div>
 <div id="add-images" class="section level4">
 <h4>Add images</h4>
-<p>This is easy, just save them to an <code>images</code> folder in your GitHub repo and then call them like this anywhere in your <code>.Rmd</code> file:</p>
+<p>This is easy, just save them to an <code>images</code> folder in your
+GitHub repo and then call them like this anywhere in your
+<code>.Rmd</code> file:</p>
 <pre><code>![](./images/picwithfish.jpg)</code></pre>
 </div>
 </div>
 </div>
-<div id="resources-for-quant-ecologists-and-marine-scientists" class="section level2">
+<div id="resources-for-quant-ecologists-and-marine-scientists"
+class="section level2">
 <h2>Resources for quant ecologists and marine scientists</h2>
 <div id="seminar-series" class="section level3">
 <h3>Seminar Series</h3>
-<p>Here’s a list of seminar series I mostly learned about while I was a Knauss fellow, but that I still now attend as a PhD student. Sometimes it’s nice to get out of your PhD bubble and see some research going on at different institutions or outside your field entirely.</p>
+<p>Here’s a list of seminar series I mostly learned about while I was a
+Knauss fellow, but that I still now attend as a PhD student. Sometimes
+it’s nice to get out of your PhD bubble and see some research going on
+at different institutions or outside your field entirely.</p>
 <ol style="list-style-type: decimal">
-<li><a href="https://oceans.ubc.ca/news-and-events/iof-seminars/quantitive-seminars/">UBC Institute for the Oceans and Fisheries Quant Seminar</a></li>
-<li><a href="https://libguides.library.noaa.gov/c.php?g=813045&amp;p=8437730">NOAA Central Library Seminar Series</a> - I love the stock assessment seminar and the Knauss lunch and learn series!</li>
-<li><a href="https://fish.uw.edu/news-events/seminar-series/quantitative-seminar/">UW School of Aquatic and Fishery Science Quant Seminar</a></li>
-<li><a href="http://puntlab.washington.edu/fisheries-think-tank/">UW SAFS Fisheries Think Tank</a></li>
-<li><a href="https://www.fisheries.noaa.gov/nwfsc-monster-seminar-jam">NWFSC Monster Jam seminar</a></li>
-<li><a href="https://iphc.int/the-commission/iphc-seminar-series">International Pacific Halibut Commission Seminar Series</a></li>
-<li><a href="https://www.fisheries.noaa.gov/alaska/outreach-and-education/2021-alaska-fisheries-science-center-groundfish-seminar-series">Alaska Groundfish seminar series</a></li>
-<li><a href="https://www.star.nesdis.noaa.gov/star/NOAAScienceSeminars.php">ALL NOAA science seminars</a> - you can also add these to your calendar and sign up for a weekly email digest!</li>
+<li><a
+href="https://oceans.ubc.ca/news-and-events/iof-seminars/quantitive-seminars/">UBC
+Institute for the Oceans and Fisheries Quant Seminar</a></li>
+<li><a
+href="https://libguides.library.noaa.gov/c.php?g=813045&amp;p=8437730">NOAA
+Central Library Seminar Series</a> - I love the stock assessment seminar
+and the Knauss lunch and learn series!</li>
+<li><a
+href="https://fish.uw.edu/news-events/seminar-series/quantitative-seminar/">UW
+School of Aquatic and Fishery Science Quant Seminar</a></li>
+<li><a href="http://puntlab.washington.edu/fisheries-think-tank/">UW
+SAFS Fisheries Think Tank</a></li>
+<li><a
+href="https://www.fisheries.noaa.gov/nwfsc-monster-seminar-jam">NWFSC
+Monster Jam seminar</a></li>
+<li><a
+href="https://iphc.int/the-commission/iphc-seminar-series">International
+Pacific Halibut Commission Seminar Series</a></li>
+<li><a
+href="https://www.fisheries.noaa.gov/alaska/outreach-and-education/2021-alaska-fisheries-science-center-groundfish-seminar-series">Alaska
+Groundfish seminar series</a></li>
+<li><a
+href="https://www.star.nesdis.noaa.gov/star/NOAAScienceSeminars.php">ALL
+NOAA science seminars</a> - you can also add these to your calendar and
+sign up for a weekly email digest!</li>
 </ol>
 </div>
 </div>

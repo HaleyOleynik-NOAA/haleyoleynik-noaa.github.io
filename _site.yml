@@ -22,7 +22,7 @@ navbar:
       href: Contact.html
   right:
     - icon: fa-github fa-lg
-      href: https://github.com/haleyoleynik-noaa     
+      href: https://github.com/haleyoleynik     
     - icon: fa-twitter fa-lg
       href: https://twitter.com/fish_follower       
     - icon: fa-info-circle fa-la
