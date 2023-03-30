@@ -102,6 +102,8 @@ urlcolor: blue
 
 # PUBLICATIONS
 
+**Oleynik, H. A.** 2022. *Living Resources: Fish Population Trends in Delware Bay: Climate and Community*. Technical Report for the Delaware Estuary and Basin, J. Shinn, L. Haaf, L. Morgan, and D. Kreeger (eds). Partnership for the Delaware Estuary. https://delawareestuary.org/data-and-reports/state-of-the-estuary-report-2/ 
+
 ICES (2022): Working Group on Technology Integration for Fishery-Dependent Data (WGTIFD; outputs from 2021 meeting). ICES Scientific Reports. Report. https://doi.org/10.17895/ices.pub.19367885.v1 
 
 <div class="csl-entry">Mathews, J. A., Hale, E. A., **Oleynik, H. A.**, et al. (2022) *Exploring Trends in Abundance of Young-of-the-Year and Age-1 Atlantic Croaker, Black Drum, Spot, and Weakfish in Relation to Salinity, Temperature, and Large-Scale Climatic Signals in a Mid-Atlantic Estuary.* <i>Transactions of the American Fisheries Society</i>, <i>151</i>(2), 150–171. https://doi.org/10.1002/TAFS.10332</div>
