@@ -13,7 +13,7 @@
 
 <title>Haley Oleynik (she/her)</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -35,8 +35,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.2.1/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.2.1/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -183,8 +183,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -192,16 +192,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -410,10 +403,9 @@ div.tocify {
 <p><img align="right" src="images/IMG_5550.JPG" width="400" alt="Haley in front of fish sculpture"></p>
 <div id="about-me" class="section level2">
 <h2>About me</h2>
-<p>Hi there, I’m Haley! I’m currently a PhD student at the University of
-British Columbia <a href="https://oceans.ubc.ca/">Institute for the
-Oceans and Fisheries</a> working with <a
-href="https://oceans.ubc.ca/murdoch-mcallister/">Murdoch
+<p>I’m a PhD student at the University of British Columbia <a
+href="https://oceans.ubc.ca/">Institute for the Oceans and Fisheries</a>
+working with <a href="https://oceans.ubc.ca/murdoch-mcallister/">Murdoch
 McAllister</a>.</p>
 <div id="background" class="section level4">
 <h4>Background</h4>
@@ -435,8 +427,7 @@ bycatch, and fishing effort to support stock assessment science.</p>
 <p>My work in Alaska sparked my interest in fish population dynamics and
 lead me to pursue my Master’s at the University of Delaware. My Master’s
 research focused on fish community dynamics and associated environmental
-drivers in the Delaware Bay using a long-term, state run trawl
-survey.</p>
+drivers in the Delaware Bay.</p>
 <p>After graduating from UD I completed a <a
 href="https://seagrant.noaa.gov/Knauss-Fellowship-Program">NOAA Sea
 Grant Knauss Marine Policy Fellowship</a> in 2021 working with the <a
@@ -448,10 +439,9 @@ Program.</p>
 <h4>Current Research</h4>
 <p>My research interests include quantitative fish ecology, population
 modeling, Bayesian fisheries assessment, and fisheries management
-evaluation. My PhD research will focus on assessing what factors impact
-Pacific salmon and steelhead stocks by conducting multivariate
-stock-recruit analyses for over 50 stocks of Chinook, Coho, Sockeye, and
-Steelhead.</p>
+evaluation. My PhD research explores what factors impact Pacific salmon
+and steelhead stocks by conducting multivariate stock-recruit analyses
+for over 100 stocks of Chinook, Coho, Sockeye, Chum, and Steelhead.</p>
 <p>I’m passionate about making science, particularly quantitative and
 technical, inclusive and accessible to all. As I learn, <a
 href="https://haleyoleynik.github.io/info.html">I will share</a>. Please
@@ -462,8 +452,8 @@ UD, UBC, etc.</p>
 </div>
 <div id="tldr" class="section level2">
 <h2>TL;DR</h2>
-<p>I’m a PhD student and quantitative fish ecologist. I love fish, R,
-data, and modeling.</p>
+<p>I’m a PhD student and quantitative fisheries ecologist. I love fish,
+R, data, and modeling.</p>
 <p><img src="images/picwithfish.jpg" /> <img
 src="images/Alaska2.jpeg" /> <img src="images/Alaska1.jpg" /> <img
 src="images/birds.jpg" /> <img src="images/me.jpg" /></p>
