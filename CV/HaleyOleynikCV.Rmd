@@ -100,7 +100,43 @@ urlcolor: blue
 
 ---------------------------------------------
 
+# AWARDS
+
+[**Buck Suzuki Legacy Bursary Award**](https://www.bucksuzuki.org/diving_into_fishing_misconceptions) *T. Buck Suzuki Foundation*\hfill 2022
+
+[**Frances Severance Thesis Distinction Award**](https://www.udel.edu/academics/colleges/ceoe/about/news/2021/may/ceoe-honors-announced/) *University of Delaware*\hfill 2021
+
+**Daiber Fellowship** *University of Delaware*\hfill 2019
+
+[**Women of Promise Award**](https://www.udel.edu/udaily/2019/march/valerie-biden-owens-women-of-promise-erin-rezich-regina-sims-wright-diversity-awards/) *University of Delaware* \hfill 2019
+
+**Okie Fellowship** *University of Delaware* \hfill 2018
+
+**Dean’s List** *Colby College* \hfill 2014-2015
+
+
+---------------------------------------------
+
+# OUTREACH AND ENGAGEMENT 
+
+*REDI Committee* **Member**, UBC Institute for the Oceans and Fisheries \hfill 2022-present
+
+*Society for Women in Marine Science* **Co-Chair**, University of Delaware Chapter \hfill 2019-2020
+
+*Graduate Student Association* **Co-Chair**, UD School of Marine Science and Policy \hfill 2019-2020
+
+
+---------------------------------------------
+
 # PUBLICATIONS
+
+Zahner. J.A, M.A. Heller-Shipley, **H.A. Oleynik**, S.G. Beyer, P-Y. Hernvann, M. Véron, A.N.
+Odell, J.Y. Sullivan, A.L. Hayes, V.G. Gertseva, K.L. Oken, O.S. Hamel, M.A. Haltuch.
+2023. *Status of Shortspine Thornyhead (Sebastolobus alascanus) along the US West coast
+in 2023*. Pacific Fishery Management Council, Portland, Oregon. 139 p.
+
+Blackhart, K., and **H. A. Oleynik**. 2023. *Setting targets and analyzing data gaps for U.S.
+fish assessments*. NOAA Tech. Memo. NMFS-F/SPO-242, p. 77 
 
 **Oleynik, H. A.** 2022. *Living Resources: Fish Population Trends in Delware Bay: Climate and Community*. Technical Report for the Delaware Estuary and Basin, J. Shinn, L. Haaf, L. Morgan, and D. Kreeger (eds). Partnership for the Delaware Estuary. https://delawareestuary.org/data-and-reports/state-of-the-estuary-report-2/ 
 
@@ -124,32 +160,6 @@ ICES (2022): Working Group on Technology Integration for Fishery-Dependent Data 
 
 ---------------------------------------------
 
-# AWARDS
-
-[**Buck Suzuki Legacy Bursary Award**](https://www.bucksuzuki.org/diving_into_fishing_misconceptions) *T. Buck Suzuki Foundation*\hfill 2022
-
-[**Frances Severance Thesis Distinction Award**](https://www.udel.edu/academics/colleges/ceoe/about/news/2021/may/ceoe-honors-announced/) *University of Delaware*\hfill 2021
-
-**Daiber Fellowship** *University of Delaware*\hfill 2019
-
-[**Women of Promise Award**](https://www.udel.edu/udaily/2019/march/valerie-biden-owens-women-of-promise-erin-rezich-regina-sims-wright-diversity-awards/) *University of Delaware* \hfill 2019
-
-**Okie Fellowship** *University of Delaware* \hfill 2018
-
-**Dean’s List** *Colby College* \hfill 2014-2015
-
----------------------------------------------
-
-# OUTREACH AND ENGAGEMENT 
-
-*REDI Committee* **Member**, UBC Institute for the Oceans and Fisheries \hfill 2022-present
-
-*Society for Women in Marine Science* **Co-Chair**, University of Delaware Chapter \hfill 2019-2020
-
-*Graduate Student Association* **Co-Chair**, UD School of Marine Science and Policy \hfill 2019-2020
-
----------------------------------------------
-
 # EXPERTISE
 
 **Computing** 
@@ -158,10 +168,6 @@ ICES (2022): Working Group on Technology Integration for Fishery-Dependent Data 
 
 **Field & Lab** 
 
-- Small boat operation, random field sampling, otolith collection, shark tagging, marine animal husbandry 
-
-**Diving** 
-
-- AAUS Scientific Diver, SDI Rescue Diver
+- AAUS Scientific Diver, SDI Rescue Diver, small boat operation, random field sampling, otolith collection, shark tagging, marine animal husbandry 
 
 ---------------------------------------------
