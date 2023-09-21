@@ -5,7 +5,7 @@ geometry: margin=1in
 title: "CV"
 author: Haley A. Oleynik
 
-jobtitle: "PhD Student"
+jobtitle: "PhD Candidate"
 address: "Institute for the Oceans and Fisheries, University of British Columbia"
 fontawesome: yes
 email: h.oleynik@oceans.ubc.ca
