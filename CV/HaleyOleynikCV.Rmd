@@ -38,7 +38,7 @@ urlcolor: blue
 
 # RESEARCH EXPERIENCE
 
-**PhD Student** \hfill Sept 2020 - Present
+**PhD Candidate** \hfill Sept 2020 - Present
 
 *Institute for the Oceans and Fisheries* University of British Columbia 
 
@@ -71,6 +71,13 @@ urlcolor: blue
 ---------------------------------------------
 
 # PROFESSIONAL EXPERIENCE
+
+**Teaching Assistant** \hfill Sept 2023 - Present
+
+*Master of Data Science Program* University of British Columbia 
+
+- DSCI 552: Statistical Inference and Computation I
+- DSCI 561: Regression I
 
 **Graduate Writing Consultant** \hfill Sept 2022 - Present
 
@@ -119,7 +126,7 @@ urlcolor: blue
 
 # OUTREACH AND ENGAGEMENT 
 
-*REDI Committee* **Member**, UBC Institute for the Oceans and Fisheries \hfill 2022-present
+*REDI Committee* **Student rep**, UBC Institute for the Oceans and Fisheries \hfill 2022-present
 
 *Society for Women in Marine Science* **Co-Chair**, University of Delaware Chapter \hfill 2019-2020
 
@@ -142,7 +149,7 @@ fish assessments*. NOAA Tech. Memo. NMFS-F/SPO-242, p. 77
 
 ICES (2022): Working Group on Technology Integration for Fishery-Dependent Data (WGTIFD; outputs from 2021 meeting). ICES Scientific Reports. Report. https://doi.org/10.17895/ices.pub.19367885.v1 
 
-<div class="csl-entry">Mathews, J. A., Hale, E. A., **Oleynik, H. A.**, et al. (2022) *Exploring Trends in Abundance of Young-of-the-Year and Age-1 Atlantic Croaker, Black Drum, Spot, and Weakfish in Relation to Salinity, Temperature, and Large-Scale Climatic Signals in a Mid-Atlantic Estuary.* <i>Transactions of the American Fisheries Society</i>, <i>151</i>(2), 150–171. https://doi.org/10.1002/TAFS.10332</div>
+<div class="csl-entry">Mathews, J. A., E. A. Hale, **H. A. Oleynik**, et al. (2022) *Exploring Trends in Abundance of Young-of-the-Year and Age-1 Atlantic Croaker, Black Drum, Spot, and Weakfish in Relation to Salinity, Temperature, and Large-Scale Climatic Signals in a Mid-Atlantic Estuary.* <i>Transactions of the American Fisheries Society</i>, <i>151</i>(2), 150–171. https://doi.org/10.1002/TAFS.10332</div>
 
 **Oleynik, H. A.** (2020). *Changes in a Mid-Atlantic Estuary: Trends and Drivers of the Fish and Macroinvertebrate Community in Delaware Bay.* https://udspace.udel.edu/handle/19716/28649 
 
