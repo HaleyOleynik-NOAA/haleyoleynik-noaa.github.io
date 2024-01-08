@@ -78,6 +78,8 @@ urlcolor: blue
 
 - DSCI 552: Statistical Inference and Computation I
 - DSCI 561: Regression I
+- DSCI 562: Regression II 
+- DSCI 554: Experimentation and Causal Inference
 
 **Graduate Writing Consultant** \hfill Sept 2022 - Present
 
@@ -131,6 +133,10 @@ urlcolor: blue
 *Society for Women in Marine Science* **Co-Chair**, University of Delaware Chapter \hfill 2019-2020
 
 *Graduate Student Association* **Co-Chair**, UD School of Marine Science and Policy \hfill 2019-2020
+
+*Hutton Junior Fisheries Biology Internship* **Reviewer**, American Fisheries Society \hfill 2024
+
+*John A. Knauss Marine Policy Fellowship* **Reviewer**, NOAA Sea Grant  \hfill 2022, 2024
 
 
 ---------------------------------------------
