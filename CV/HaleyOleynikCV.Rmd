@@ -143,25 +143,29 @@ urlcolor: blue
 
 # PUBLICATIONS
 
+**Oleynik, H.A.**, J.J Bizzarro, E.A. Hale, A.B. Carlisle. 2024. Environmental drivers of biogeography and community structure in a Mid-Atlantic estuary. Oecologia. https://doi.org/10.1007/s00442-023-05500-z
+
 Zahner. J.A, M.A. Heller-Shipley, **H.A. Oleynik**, S.G. Beyer, P-Y. Hernvann, M. Véron, A.N.
 Odell, J.Y. Sullivan, A.L. Hayes, V.G. Gertseva, K.L. Oken, O.S. Hamel, M.A. Haltuch.
 2023. *Status of Shortspine Thornyhead (Sebastolobus alascanus) along the US West coast
 in 2023*. Pacific Fishery Management Council, Portland, Oregon. 139 p.
 
-Blackhart, K., and **H. A. Oleynik**. 2023. *Setting targets and analyzing data gaps for U.S.
+Blackhart, K., and **H.A. Oleynik**. 2023. *Setting targets and analyzing data gaps for U.S.
 fish assessments*. NOAA Tech. Memo. NMFS-F/SPO-242, p. 77 
 
-**Oleynik, H. A.** 2022. *Living Resources: Fish Population Trends in Delware Bay: Climate and Community*. Technical Report for the Delaware Estuary and Basin, J. Shinn, L. Haaf, L. Morgan, and D. Kreeger (eds). Partnership for the Delaware Estuary. https://delawareestuary.org/data-and-reports/state-of-the-estuary-report-2/ 
+**Oleynik, H.A.** 2022. *Living Resources: Fish Population Trends in Delware Bay: Climate and Community*. Technical Report for the Delaware Estuary and Basin, J. Shinn, L. Haaf, L. Morgan, and D. Kreeger (eds). Partnership for the Delaware Estuary. https://delawareestuary.org/data-and-reports/state-of-the-estuary-report-2/ 
 
 ICES (2022): Working Group on Technology Integration for Fishery-Dependent Data (WGTIFD; outputs from 2021 meeting). ICES Scientific Reports. Report. https://doi.org/10.17895/ices.pub.19367885.v1 
 
-<div class="csl-entry">Mathews, J. A., E. A. Hale, **H. A. Oleynik**, et al. (2022) *Exploring Trends in Abundance of Young-of-the-Year and Age-1 Atlantic Croaker, Black Drum, Spot, and Weakfish in Relation to Salinity, Temperature, and Large-Scale Climatic Signals in a Mid-Atlantic Estuary.* <i>Transactions of the American Fisheries Society</i>, <i>151</i>(2), 150–171. https://doi.org/10.1002/TAFS.10332</div>
+<div class="csl-entry">Mathews, J.A., E.A. Hale, **H.A. Oleynik**, et al. (2022) *Exploring Trends in Abundance of Young-of-the-Year and Age-1 Atlantic Croaker, Black Drum, Spot, and Weakfish in Relation to Salinity, Temperature, and Large-Scale Climatic Signals in a Mid-Atlantic Estuary.* <i>Transactions of the American Fisheries Society</i>, <i>151</i>(2), 150–171. https://doi.org/10.1002/TAFS.10332</div>
 
-**Oleynik, H. A.** (2020). *Changes in a Mid-Atlantic Estuary: Trends and Drivers of the Fish and Macroinvertebrate Community in Delaware Bay.* https://udspace.udel.edu/handle/19716/28649 
+**Oleynik, H.A.** (2020). *Changes in a Mid-Atlantic Estuary: Trends and Drivers of the Fish and Macroinvertebrate Community in Delaware Bay.* https://udspace.udel.edu/handle/19716/28649 
 
 ---------------------------------------------
 
 # PRESENTATIONS
+
+*"Integrating Electronic Monitoring Data into U.S. Fish Stock Assessments"* World Fisheries Congress \hfill 2024
 
 *"Long-Term Shifts in the Fish and Macroinvertebrate Community in a Mid-Atlantic Estuary"* American Fisheries Society Annual Conference \hfill 2021
 
