@@ -13,7 +13,7 @@
 
 <title>Presentations</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
@@ -35,8 +35,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -183,8 +183,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -192,16 +192,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -408,6 +401,16 @@ div.tocify {
 
 
 <div id="section" class="section level3">
+<h3>2024</h3>
+<div
+id="november-2021.-integrating-electronic-monitoring-data-into-u.s.-fish-stock-assessments"
+class="section level4">
+<h4>November 2021. <strong>“Integrating Electronic Monitoring Data into
+U.S. Fish Stock Assessments”</strong></h4>
+<p><em>World Fisheries Congress, Seattle, WA</em></p>
+</div>
+</div>
+<div id="section-1" class="section level3">
 <h3>2021</h3>
 <div
 id="november-2021.-long-term-shifts-in-the-fish-and-macroinvertebrate-community-in-a-mid-atlantic-estuary"
@@ -415,6 +418,13 @@ class="section level4">
 <h4>November 2021. <strong>“Long-Term Shifts in the Fish and
 Macroinvertebrate Community in a Mid-Atlantic Estuary”</strong></h4>
 <p><em>American Fisheries Society Annual Conference</em></p>
+</div>
+<div
+id="september-2021.-long-term-shifts-in-the-fish-and-macroinvertebrate-community-in-a-north-american-estuary"
+class="section level4">
+<h4>September 2021. <strong>“Long-Term Shifts in the Fish and
+Macroinvertebrate Community in a North American Estuary”</strong></h4>
+<p><em>World Fisheries Congress</em></p>
 </div>
 <div
 id="september-2021.-changes-in-a-mid-atlantic-estuary-long-term-shifts-in-the-fish-and-macroinvertebrate-community-in-delaware-bay"
@@ -427,15 +437,8 @@ Bay”</strong></h4>
 </iframe>
 </div>
 </div>
-<div id="section-1" class="section level3">
+<div id="section-2" class="section level3">
 <h3>2020</h3>
-<div
-id="september-2021.-long-term-shifts-in-the-fish-and-macroinvertebrate-community-in-a-north-american-estuary"
-class="section level4">
-<h4>September 2021. <strong>“Long-Term Shifts in the Fish and
-Macroinvertebrate Community in a North American Estuary”</strong></h4>
-<p><em>World Fisheries Congress</em></p>
-</div>
 <div
 id="november-2020.-changes-in-a-mid-atlantic-estuary-long-term-trends-in-environmental-conditions-and-marine-community-in-delaware-bay"
 class="section level4">
@@ -445,7 +448,7 @@ Bay”</strong></h4>
 <p><em>American Fisheries Society Mid-Atlantic Chapter Meeting</em></p>
 </div>
 </div>
-<div id="section-2" class="section level3">
+<div id="section-3" class="section level3">
 <h3>2019</h3>
 <div
 id="november-2019.-factors-influencing-community-composition-in-delaware-bay"

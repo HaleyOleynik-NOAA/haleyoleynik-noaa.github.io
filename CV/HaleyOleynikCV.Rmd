@@ -109,7 +109,8 @@ urlcolor: blue
 
 ---------------------------------------------
 
-# AWARDS
+# AWARDS AND FUNDING
+[**Partnership Engage Grant **](https://www.sshrc-crsh.gc.ca/funding-financement/programs-programmes/partnership_engage_grants-subventions_d_engagement_partenarial-eng.aspx) *Social Sciences and Humanities Research Council, Canada*\hfill 2024
 
 [**Buck Suzuki Legacy Bursary Award**](https://www.bucksuzuki.org/diving_into_fishing_misconceptions) *T. Buck Suzuki Foundation*\hfill 2022
 
