@@ -149,10 +149,10 @@ urlcolor: blue
 Zahner. J.A, M.A. Heller-Shipley, **H.A. Oleynik**, S.G. Beyer, P-Y. Hernvann, M. Véron, A.N.
 Odell, J.Y. Sullivan, A.L. Hayes, V.G. Gertseva, K.L. Oken, O.S. Hamel, M.A. Haltuch.
 2023. *Status of Shortspine Thornyhead (Sebastolobus alascanus) along the US West coast
-in 2023*. Pacific Fishery Management Council, Portland, Oregon. 139 p.
+in 2023*. Pacific Fishery Management Council, Portland, Oregon. 139 p. [www.pcouncil.org/shortspine-thornyhead](https://www.pcouncil.org/documents/2024/02/status-of-shortspine-thornyhead-sebastolobus-alascanus-along-the-us-west-coast-in-2023.pdf/)
 
 Blackhart, K., and **H.A. Oleynik**. 2023. *Setting targets and analyzing data gaps for U.S.
-fish assessments*. NOAA Tech. Memo. NMFS-F/SPO-242, p. 77 
+fish assessments*. NOAA Tech. Memo. NMFS-F/SPO-242, p. 77 https://repository.library.noaa.gov/view/noaa/51033
 
 **Oleynik, H.A.** 2022. *Living Resources: Fish Population Trends in Delware Bay: Climate and Community*. Technical Report for the Delaware Estuary and Basin, J. Shinn, L. Haaf, L. Morgan, and D. Kreeger (eds). Partnership for the Delaware Estuary. https://delawareestuary.org/data-and-reports/state-of-the-estuary-report-2/ 
 
