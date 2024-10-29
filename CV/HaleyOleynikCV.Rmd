@@ -38,11 +38,11 @@ urlcolor: blue
 
 # RESEARCH EXPERIENCE
 
-**PhD Candidate** \hfill Sept 2020 - Present
+**PhD Candidate** \hfill Sept 2021 - Present
 
 *Institute for the Oceans and Fisheries* University of British Columbia 
 
-- Thesis research will include a multifactor, multistock impact analysis of salmon and steelhead fisheries in British Columbia and a retrospective analysis of ecological and socioeconomic conditions in these fisheries
+- Multifactor, multistock impact analysis of salmon and steelhead fisheries in British Columbia and a retrospective analysis of ecological and socioeconomic conditions in these fisheries
 
 **M.S. Student** \hfill Sept 2018 - July 2020
 
@@ -81,11 +81,11 @@ urlcolor: blue
 - DSCI 562: Regression II 
 - DSCI 554: Experimentation and Causal Inference
 
-**Graduate Writing Consultant** \hfill Sept 2022 - Present
+**Graduate Writing Consultant** \hfill Sept 2022 - April 2024
 
 *Center for Writing and Scholarly Communication* University of British Columbia 
 
-- Provide written and in-person consultations to graduate and undergraduate students on written work including class assignments, manuscripts, and dissertations
+- Provided written and in-person consultations to graduate and undergraduate students on written work including class assignments, manuscripts, and dissertations
 
 **2021 NOAA Sea Grant John A. Knauss Marine Policy Fellow** \hfill Feb 2021 - Feb 2022
 
@@ -166,7 +166,11 @@ ICES (2022): Working Group on Technology Integration for Fishery-Dependent Data 
 
 # PRESENTATIONS
 
-*"Integrating Electronic Monitoring Data into U.S. Fish Stock Assessments"* World Fisheries Congress \hfill 2024
+*"Incorperating Human Dimensions into EBFM: Understanding Socioeconomic Consequences of Ecological Change"* American Fisheries Society Annual Conference \hfill Sep 2024
+
+*"Integrating Electronic Monitoring Data into U.S. Fish Stock Assessments"* World Fisheries Congress \hfill Mar 2024
+
+*"Fisheries Science and Management"* Guest Lecture, George Washington University Marine Ecology Course (BISC 3454) \hfill Dec 2024
 
 *"Long-Term Shifts in the Fish and Macroinvertebrate Community in a Mid-Atlantic Estuary"* American Fisheries Society Annual Conference \hfill 2021
 
